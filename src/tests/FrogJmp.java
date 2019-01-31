@@ -12,7 +12,6 @@ public class FrogJmp {
         else
             return (int) Math.ceil((double)(Y-X)/D);
     }
-
     public static void main(String[] args) {
         System.out.println(solution(10,85,30));
     }
