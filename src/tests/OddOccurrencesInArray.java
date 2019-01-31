@@ -1,5 +1,8 @@
-package tests;
+/*
+ * Copyright (c) 2019 by Morhaf Kourbaj.
+ */
 
+package tests;
 
 public class OddOccurrencesInArray {
 
