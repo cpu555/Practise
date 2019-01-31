@@ -1,4 +1,4 @@
-package test;
+package tests;
 
 public class BinaryGap {
     public static int solution(int N) {
