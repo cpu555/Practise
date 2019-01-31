@@ -14,18 +14,9 @@ public class CyclicRotation {
                 }
                 A[0]=l;
             }
-        printArray(A);
         return A;
     }
 
-    private static void printArray(int[] anArray) {
-        for (int i = 0; i < anArray.length; i++) {
-            if (i > 0) {
-                System.out.print(", ");
-            }
-            System.out.print(anArray[i]);
-        }
-    }
     public static void main(String[] args) {
         int [] A = {3,8,9,7,6};
         solution(A,1).toString();
